@@ -1,0 +1,54 @@
+test = []
+if x:
+	statement(false)
+elseif true:
+	what(false)
+elseif true:
+	lame(true)
+else:
+	statement(other)
+
+b = 3
+k = [
+	[blah],
+	"cool",
+	3
+]
+
+blank = {}
+
+sup = {
+	word, this: "that", the: other, [4]: 0
+}
+
+
+
+blah()
+
+YEAH = {THIS, OKAY: 3 * 8, [1 * 9]: {another, awesome, aTable: "table"}}
+
+word = test[(word[8] * 6)] + 8
+word = test[(word[8] * 6)].sup[3]("yeah", 2, 3 * 4)[5]()
+word = test(3 * 6, 4 / 8)
+blah2 = blah.yeah
+
+
+for test in ["3"]:
+	print("THIS IS AN EXAMPLE")
+
+while true:
+	print('cool beans')
+
+blah = ():
+	example = 3 * 4
+
+
+
+
+
+print(three, "three")
+print(3.5, 4, 5, 6)
+if "this is a \"crazy\" big test\\experiment" >= "":
+	print(    3    +  (3  * 4 *8)   / (6   +    2)  -"yeah")
+	if not (5 == 5) == (3==6==8==4 == 4):
+		print    (    3    + 8-2*6      )       

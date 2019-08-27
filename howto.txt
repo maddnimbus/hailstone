@@ -1,0 +1,17 @@
+Assuming brew and trash (from npm, could just use rm too) are installed:
+	brew install luajit lua@5.1
+	
+	Assuming luajit, and lua@5.1 are installed (other lua versions may cause problems):
+		wget https://luarocks.org/releases/luarocks-3.0.4.tar.gz
+		tar zxpf luarocks-3.0.4.tar.gz
+		cd luarocks-3.0.4
+		./configure; sudo make bootstrap
+		cd ..
+		trash luarocks-3.0.4
+		trash luarocks-3.0.4.tar.gz
+
+		luarocks install --tree lua_modules penlight
+		luarocks install --tree lua_modules moonscript
+		luarocks install --tree lua_modules lpeg
+		luarocks install --tree lua_modules lpeglabel
+		luarocks install --tree lua_modules uuid
